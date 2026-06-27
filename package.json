@@ -15,8 +15,12 @@
     "ai"
   ],
   "homepage": "https://payflowagent.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coinlooter/payflowagent-mcp.git"
+  },
   "bugs": {
-    "url": "https://payflowagent.net"
+    "url": "https://github.com/Coinlooter/payflowagent-mcp/issues"
   },
   "license": "MIT",
   "author": "PayFlowAgent",
