@@ -1,0 +1,56 @@
+{
+  "name": "payflowagent-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for PayFlowAgent — free & pay-per-call (x402/USDC) risk & momentum scores for nad.fun tokens on Monad.",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "mcp-server",
+    "x402",
+    "monad",
+    "nad.fun",
+    "crypto",
+    "token",
+    "agent",
+    "ai"
+  ],
+  "homepage": "https://payflowagent.net",
+  "bugs": {
+    "url": "https://payflowagent.net"
+  },
+  "license": "MIT",
+  "author": "PayFlowAgent",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "payflowagent-mcp": "dist/index.js"
+  },
+  "mcpName": "net.payflowagent/mcp",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "prepack": "npm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@x402/core": "^2.17.0",
+    "@x402/evm": "^2.17.0",
+    "viem": "^2.21.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

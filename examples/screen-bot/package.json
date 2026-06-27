@@ -1,0 +1,16 @@
+{
+  "name": "payflowagent-screen-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reference polling bot: find good new Monad (nad.fun) tokens every few minutes via PayFlowAgent /v1/screen (paid per call in USDC via x402).",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@x402/core": "^2.17.0",
+    "@x402/evm": "^2.17.0",
+    "viem": "^2.21.0"
+  }
+}
