@@ -1,6 +1,6 @@
 {
   "name": "payflowagent-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for PayFlowAgent — free & pay-per-call (x402/USDC) risk & momentum scores for nad.fun tokens on Monad.",
   "keywords": [
     "mcp",
